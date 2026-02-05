@@ -1,16 +1,11 @@
 public class Main {
     public static void main(String[] args) {
-        int a = 3;
-        int b = 9;
-        if  (a > b) {
-            System.out.println(true);
-        } else if (a == b){
-            System.out.println(true);
-        } else if (a != b) {
-            System.out.println(true);
+        int age = 20;
+        boolean hasTicket = true;
+        if (age >= 18 && hasTicket) {
+            System.out.println("Проход разрешён");
         } else {
-            System.out.println(false);
+            System.out.println("Проход запрещён");
         }
-
     }
 }
