@@ -1,13 +1,9 @@
 public class Main {
     public static void main(String[] args) {
-       int number = 10;
-       if (number > 0){
-           System.out.println("Положительное");
-       } else if (number == 0){
-           System.out.println("Ноль");
+       int x = 30;
+       int y = 20;
 
-       } else {
-           System.out.println("Отрицательное");
-       }
+       int max = x > y ? x : y;
+       System.out.println(max);
     }
 }
