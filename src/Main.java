@@ -48,35 +48,49 @@ public class Main {
         System.out.println("=========================");
 
         System.out.println("Task 6");
-        int x6 = 30;
-        int y6 = 20;
-        int max = x6 > y6 ? x6 : y6;
-        System.out.println(max);
+        int n = -10;
+        int absN = n >= 0 ? n : -n;
+        System.out.println(absN);
         System.out.println("=========================");
 
         System.out.println("Task 7");
-        int day = 3;
-       switch (day) {
+        int month = 3;
+       switch (month) {
            case 1:
-               System.out.println("Понедельник");
+               System.out.println("Январь");
                break;
            case 2:
-               System.out.println("Вторник");
+               System.out.println("Февраль");
                break;
            case 3:
-               System.out.println("Среда");
+               System.out.println("Март");
                break;
            case 4:
-               System.out.println("Четверг");
+               System.out.println("Апрель");
                break;
            case 5:
-               System.out.println("Пятница");
+               System.out.println("Май");
                break;
            case 6:
-               System.out.println("Суббота");
+               System.out.println("Июнь");
                break;
            case 7:
-               System.out.println("Воскресенье");
+               System.out.println("Июль");
+               break;
+           case 8:
+               System.out.println("Август");
+               break;
+           case 9:
+               System.out.println("Сентябрь");
+               break;
+           case 10:
+               System.out.println("Октябрь");
+               break;
+           case 11:
+               System.out.println("Ноябрь");
+               break;
+           case 12:
+               System.out.println("Декабрь");
                break;
            default:
                System.out.println("Неккоректный день");
