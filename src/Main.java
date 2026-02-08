@@ -20,15 +20,9 @@ public class Main {
         System.out.println("Task 3");
         int a3 = 3;
         int b3 = 9;
-        if  (a3 > b3) {
-            System.out.println(true);
-        } else if (a3 == b3){
-            System.out.println(true);
-        } else if (a3 != b3) {
-            System.out.println(true);
-        } else {
-            System.out.println(false);
-        }
+        System.out.println(a3 > b3);
+        System.out.println(a3 == b3);
+        System.out.println(a3 != b3);
         System.out.println("=========================");
 
         System.out.println("Task 4");
